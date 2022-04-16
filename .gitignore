@@ -37,3 +37,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+libs/core-components-react/**/generated
+
+.angular
+libs/core-components-angular/**/generated

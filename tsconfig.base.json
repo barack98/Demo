@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo/core-components": ["dist/libs/core-components"],
+      "@demo/core-components-angular": [
+        "libs/core-components-angular/src/index.ts"
+      ],
+      "@demo/core-components-react": [
+        "libs/core-components-react/src/index.ts"
+      ],
+      "@demo/core-components/loader": ["dist/libs/core-components/loader"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

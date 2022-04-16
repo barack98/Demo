@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/core-components-angular",
+  "sourceRoot": "libs/core-components-angular/src",
+  "prefix": "demo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/core-components-angular"],
+      "options": {
+        "jestConfig": "libs/core-components-angular/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/core-components-angular/src/**/*.ts",
+          "libs/core-components-angular/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
